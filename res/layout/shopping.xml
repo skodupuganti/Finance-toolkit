@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:id="@+id/scroller" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:fillViewport="true" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"   
+	android:orientation="vertical"    
+	android:paddingTop="5px"
+	android:paddingLeft="5px"
+	android:paddingBottom="5px"
+	android:paddingRight="5px"
+	android:layout_width="fill_parent"   
+	android:layout_height="fill_parent"
+	
+	> 
+	<LinearLayout    
+	android:orientation="horizontal"      
+	android:layout_width="fill_parent"    
+	android:layout_height="wrap_content"     
+	android:layout_weight="1"
+	>
+<TextView
+android:id="@+id/label2"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="Type your item here:"
+android:layout_weight=".5"/>
+
+<AutoCompleteTextView
+android:id="@+id/entry1"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:inputType="text"
+android:maxLength="20"
+
+android:layout_weight=".5"/>
+</LinearLayout>
+	<LinearLayout    
+	android:orientation="horizontal"      
+	android:layout_width="fill_parent"    
+	android:layout_height="wrap_content"     
+	android:layout_weight="1"
+	>
+<TextView
+android:id="@+id/label"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="Type your cost here:"
+android:layout_weight=".5"/>
+
+<EditText
+android:id="@+id/entry"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:inputType="numberDecimal"
+android:maxLength="6"
+
+android:layout_below="@id/label"
+android:layout_weight=".5"/>
+</LinearLayout>
+
+<LinearLayout    
+	android:orientation="horizontal"      
+	android:layout_width="fill_parent"    
+	android:layout_height="wrap_content"     
+	android:layout_weight="1"
+	>
+<Button
+android:id="@+id/clearlist"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:layout_below="@id/entry"
+android:layout_weight=".5"
+android:text="CLEAR LIST" />
+
+<Button
+android:id="@+id/ok"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:layout_below="@id/entry"
+android:layout_weight=".5"
+android:text="ADD ITEM" />
+
+</LinearLayout>
+<LinearLayout    
+	android:orientation="horizontal"      
+	android:layout_width="fill_parent"    
+	android:layout_height="wrap_content"     
+	android:layout_weight="1"
+	>
+<TextView
+android:id="@+id/lb12"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="Item Name"
+android:textSize="18sp"
+android:layout_weight=".5"/>
+<TextView
+android:id="@+id/lb13"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="Price"
+android:textSize="18sp"
+android:layout_weight=".5"/>
+
+</LinearLayout>
+<View 
+	android:layout_width="fill_parent" 
+	android:layout_height="1dp" 
+	android:background="#ffffff"
+	/>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:id="@+id/scroller1" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:fillViewport="true" >
+<LinearLayout    
+	android:orientation="horizontal"      
+	android:layout_width="fill_parent"    
+	android:layout_height="wrap_content"     
+	android:layout_weight="1"
+	>
+<ListView 
+	android:id="@+id/l1"
+	android:layout_width="fill_parent"
+	android:layout_height="230dp"
+	/>
+
+</LinearLayout>
+</ScrollView>
+<View 
+	android:layout_width="fill_parent" 
+	android:layout_height="1dp" 
+	android:background="#ffffff"
+	/>
+<LinearLayout    
+	android:orientation="horizontal"      
+	android:layout_width="fill_parent"    
+	android:layout_height="wrap_content"     
+
+	
+	>
+<TextView
+android:id="@+id/label12"
+android:layout_width="130dp"
+android:layout_height="wrap_content"
+android:text="Total"
+android:textSize="18sp"
+
+/>
+<TextView
+android:id="@+id/r"
+
+android:layout_width="15dp"
+android:layout_height="wrap_content"
+android:text=""
+android:textColor="#ffff0000"
+android:textSize="18sp"
+/>
+<TextView
+android:layout_gravity="left"
+android:id="@+id/label1"
+android:layout_width="140dp"
+android:layout_height="wrap_content"
+android:textSize="18sp"
+android:textColor="#ffff0000"
+android:text=""
+/>
+</LinearLayout>
+</LinearLayout>
+</ScrollView>

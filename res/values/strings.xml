@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, GalleryOne!</string>
+    <string name="app_name"><i>Personal Finance Toolkit</i></string>
+    <string name="app_name1"><i>EMI Calculator</i></string>
+    <string name="app_name2"><i>Future Value Calculator</i></string>
+    <string name="app_name3"><i>Retirement Calculator</i></string>
+    <string name="app_name4"><i>Savings Calculator</i></string>
+    <string name="app_name5"><i>Discount Calculator</i></string>
+    <string name="app_name6"><i>Income Tax Calculator</i></string>
+    <string name="app_name7"><i>Dutch Calculator</i></string>
+    <string name="app_name8"><i>Shopping Calculator</i></string>
+    <string name="app_name9"><i>Currency Converter</i></string>
+    
+</resources>

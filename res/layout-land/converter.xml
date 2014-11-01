@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:id="@+id/scroller" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" 
+    android:fillViewport="true" >
+
+<LinearLayout
+	android:id="@+id/widget31"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:paddingTop="5px"
+	android:paddingLeft="5px"
+	android:paddingBottom="5px"
+	android:paddingRight="5px">
+	
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="horizontal"
+		android:layout_weight="1"
+	>
+		<TextView
+			android:textSize="18sp"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="Convert From:">
+			</TextView>
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="horizontal"
+		android:layout_weight="1">
+	
+		<RadioGroup 
+		android:orientation="horizontal"
+				  android:layout_width="wrap_content" 
+		          android:layout_height="wrap_content"
+		          android:id="@+id/group1"
+		          >
+	
+		<RadioButton
+		android:gravity="center"
+		android:id="@+id/dol"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Dollars"
+		android:textColorHighlight="#000000"
+		android:layout_weight=".3"
+		>
+		</RadioButton>
+		<RadioButton
+		android:gravity="center"
+		android:id="@+id/eur"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Euros"
+		android:layout_weight=".3"
+		>
+		</RadioButton>
+		
+		<RadioButton
+		android:gravity="center"
+		android:id="@+id/rup"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Rupees"
+		android:textColorHighlight="#000000"
+		android:layout_weight=".3"	
+		>
+		</RadioButton>
+		
+		
+		
+		</RadioGroup>
+		</LinearLayout>
+		
+		
+			<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:orientation="horizontal"
+			android:layout_weight="1"	>
+			<TextView
+			android:gravity="fill_horizontal"
+			android:id="@+id/dollars"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="Dollars:"
+			android:layout_weight=".5"	
+			android:textStyle="bold"
+			>
+			</TextView>
+			<EditText
+			android:id="@+id/dollar"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text=""
+			android:inputType="numberDecimal"
+			android:textSize="18sp"
+			android:textColor="#000080"
+			android:textStyle="bold"
+			android:layout_weight=".5"			
+			>
+			</EditText>
+			</LinearLayout>
+			
+			<LinearLayout
+	
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:orientation="horizontal"
+			android:layout_weight="1"	>
+			<TextView
+			android:id="@+id/euros"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="Euros:"
+			android:textStyle="bold"
+			android:layout_weight=".5"	
+			>
+			</TextView>
+			<EditText
+			android:id="@+id/euro"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text=""
+			android:inputType="numberDecimal"
+			android:textSize="18sp"
+			android:textColor="#000080"
+			android:textStyle="bold"
+			android:layout_weight=".5"	
+			>
+			</EditText>
+			</LinearLayout>
+			<LinearLayout
+	
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:orientation="horizontal"
+			android:layout_weight="1"	>
+			<TextView
+			android:id="@+id/rupees"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="Rupees:"
+			android:textStyle="bold"
+			android:layout_weight=".5"	
+			>
+			</TextView>
+			<EditText
+			android:id="@+id/rupee"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text=""
+			android:inputType="numberDecimal"
+			android:textSize="18sp"
+			android:textColor="#000080"
+			android:textStyle="bold"
+			android:layout_weight=".5"	
+			>
+			</EditText>
+			</LinearLayout>
+			<LinearLayout
+	android:orientation="horizontal"      
+	android:layout_width="fill_parent"    
+	android:layout_height="fill_parent"
+	android:layout_weight="1"     
+	>
+	<TextView
+		
+		android:gravity="fill_horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight=".5"
+		android:textColor="#0000FF"
+		android:textStyle="bold">
+		</TextView>
+	
+		<Button
+		android:id="@+id/convert"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:textColor="#0000FF"
+		android:text="Convert"
+		android:textStyle="bold"
+		android:layout_weight=".5">
+		</Button>
+
+	</LinearLayout>
+</LinearLayout>
+</ScrollView>

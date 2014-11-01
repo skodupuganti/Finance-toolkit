@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:id="@+id/scroller" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:fillViewport="true" >
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"   
+	android:orientation="vertical"    
+	android:layout_width="fill_parent"   
+	android:layout_height="fill_parent"
+	android:paddingTop="5px"
+	android:paddingLeft="5px"
+	android:paddingBottom="5px"
+	android:paddingRight="5px"
+> 
+	<LinearLayout    
+	android:orientation="horizontal"      
+	android:layout_width="fill_parent"    
+	android:layout_height="fill_parent"     
+	android:layout_weight="1"
+	>
+        <TextView 
+                android:id="@+id/lbl1" 
+                android:layout_width="fill_parent" 
+                android:layout_height="wrap_content"
+                android:text="Total Amount:"
+                android:layout_weight=".5"
+               
+		android:textStyle="bold"
+              />
+        <EditText 
+                android:id="@+id/txtAmount" 
+                android:layout_width="fill_parent" 
+                android:layout_height="wrap_content" 
+                android:numeric="decimal"
+               	android:layout_weight=".5"
+               		android:textColor="#000080"
+		android:textStyle="bold"
+                />                      
+     </LinearLayout>
+   
+        <LinearLayout    
+	android:orientation="horizontal"      
+	android:layout_width="fill_parent"    
+	android:layout_height="fill_parent"     
+	android:layout_weight="1">
+        <TextView 
+                android:id="@+id/lbl2" 
+                android:layout_width="fill_parent" 
+                android:layout_height="wrap_content"
+                android:text="No.of People:"
+              	android:layout_weight=".5"
+              
+		android:textStyle="bold"
+                />
+        <EditText 
+                android:id="@+id/txtPeople" 
+                android:layout_width="fill_parent" 
+                android:layout_height="wrap_content" 
+                android:numeric="integer"
+                android:layout_weight=".5"
+                	android:textColor="#000080"
+		android:textStyle="bold"/>                       
+   </LinearLayout>
+  
+        <LinearLayout    
+	android:orientation="horizontal"      
+	android:layout_width="fill_parent"    
+	android:layout_height="fill_parent"     
+	android:layout_weight="1"> 
+
+        <TextView 
+                android:id="@+id/lbl3" 
+                android:layout_width="fill_parent" 
+                android:layout_height="wrap_content" 
+                android:text="Tip Percentage:"
+                 android:layout_weight=".5"
+                 
+		android:textStyle="bold"
+               />
+          
+   
+           
+        
+                <EditText 
+                        android:id="@+id/txtTipOther" 
+                        android:layout_width="fill_parent" 
+                        android:layout_height="wrap_content"
+                        android:numeric="decimal"
+                        android:maxLength="4"
+                         android:layout_weight=".5"
+                         	android:textColor="#000080"
+		android:textStyle="bold"/>                     
+     </LinearLayout>
+          
+       <LinearLayout    
+	android:orientation="horizontal"      
+	android:layout_width="fill_parent"    
+	android:layout_height="fill_parent"     
+	android:layout_weight="1"> 
+       
+          <TextView 
+                android:id="@+id/lbl13" 
+                android:layout_width="fill_parent" 
+                android:layout_height="wrap_content" 
+              
+                 android:layout_weight=".5"
+               />
+          
+        <Button
+		android:id="@+id/btnCalculate"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:textColor="#0000FF"
+		android:text="Calculate"
+		android:textStyle="bold"
+		android:layout_weight=".5">
+		</Button>
+	</LinearLayout>    
+   <LinearLayout    
+	android:orientation="horizontal"      
+	android:layout_width="fill_parent"    
+	android:layout_height="fill_parent"     
+	android:layout_weight="1"> 
+   
+       
+ 
+   
+        <TextView 
+                android:id="@+id/lbl4" 
+                android:layout_width="fill_parent" 
+                android:layout_height="wrap_content"
+          
+		android:textStyle="bold"
+                android:text="Tip Amount:"
+                android:layout_weight=".5"/>
+        <TextView 
+                android:id="@+id/txtTipAmount" 
+                android:layout_width="fill_parent" 
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:textSize="18sp"
+	android:textColor="#ffff0000" 
+              />                       
+       </LinearLayout>
+           <LinearLayout    
+	android:orientation="horizontal"      
+	android:layout_width="fill_parent"    
+	android:layout_height="fill_parent"     
+	android:layout_weight="1"> 
+        
+        <TextView 
+                android:id="@+id/lbl5" 
+                android:layout_width="fill_parent" 
+                android:layout_height="wrap_content"
+
+		android:textStyle="bold"
+                android:text="Total To Pay:"
+                android:layout_weight=".5"/>
+        <TextView 
+                android:id="@+id/txtTotalToPay" 
+                android:layout_width="fill_parent" 
+                android:layout_height="wrap_content" 
+                android:layout_weight=".5"
+                android:textSize="18sp"
+	android:textColor="#ffff0000"/>                       
+      </LinearLayout>
+             <LinearLayout    
+	android:orientation="horizontal"      
+	android:layout_width="fill_parent"    
+	android:layout_height="fill_parent"     
+	android:layout_weight="1"> 
+        <TextView 
+                android:id="@+id/lbl6" 
+                android:layout_width="fill_parent" 
+                android:layout_height="wrap_content"
+             	android:layout_weight=".5"
+                android:text="Total Per Person:"
+         
+		android:textStyle="bold"/>
+        <TextView 
+                android:id="@+id/txtTipPerPerson" 
+                android:layout_width="fill_parent" 
+                android:layout_height="wrap_content" 
+                android:layout_weight=".5"
+                android:textSize="18sp"
+	android:textColor="#ffff0000"
+	
+           />                       
+        </LinearLayout>
+        </LinearLayout>
+        </ScrollView>

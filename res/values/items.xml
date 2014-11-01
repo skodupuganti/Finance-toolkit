@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="items">
+		<item>Apple</item>
+		<item>T-Shirt</item>
+		<item>Pant</item>
+		<item>Bag</item>
+		<item>Avocado</item>
+		 <item>Bananas</item>
+		 <item>Berries</item>
+		 <item>Cherries</item>
+		 <item>Grapes</item>
+		 <item>Lemons</item>
+		 <item>Melons</item>
+		 <item>Limes</item>
+		 <item>Oranges</item>
+		 <item>Plums</item>
+		 <item>Peaches</item>
+		 <item>Kiwis</item>
+		 <item>Pears</item>
+		 <item>Bar soap</item>
+		 <item>Battery Big 1.5 V</item>
+		 <item>Battery Medium</item>
+		 <item>Calculator (10 digit)</item>
+		 <item>Casement Cloth</item>
+		 <item>Colin spray</item>
+		 <item>Cotton Rope</item>
+		 <item>Desk Calendar</item>
+		 <item>Desk calendar stand</item>
+		 <item>Dust bin (Plastic)</item>
+		 <item>Dust Bin with lead</item>
+		 <item>Embroidery thread roll</item>
+		 <item>Tea Bag</item>
+		 <item>Glass tumbler</item>
+		 <item>Glass Tumbler</item>
+		 <item>Gunny Bags</item>
+		 <item>Heater</item>
+		 <item>Hit spray</item>
+		 <item>LockKey</item>
+		 <item>Long cloth</item>
+		 <item>Mathy Cloth</item>
+		 <item>Mosquito repellant</item>
+		 <item>Naphthalene ball</item>
+		 <item>Aqua cooler</item>
+		 <item>Tomatoes</item>
+		 <item>Potatoes</item>
+		 <item>Potatoes</item>
+		 <item>Squash</item>
+		 <item>Peppers</item>
+		 <item>Sprouts</item>
+		 <item>Onions</item>
+		 <item>Mushrooms</item>
+		 <item>Lettuce</item>
+		 <item>Greens</item>
+		 <item>Cucumbers</item>
+		 <item>Corn</item>
+		 <item>Celery</item>
+		 <item>Carrots</item>
+		 <item>Beets</item>
+		 <item>Cauliflower</item>
+		 <item>Asparagus</item>
+		 <item>Broccoli</item>
+		 <item>Waffle mi</item>
+		 <item>Pancake</item>
+		 <item>cheese</item>
+		 <item>Mustard</item>
+		 <item>Mayonnaise</item>
+		 <item>Lime juice</item>
+		 <item>Ketchup</item>
+		 <item>Preserves</item>
+		 <item>Jelly</item>
+		 <item>Honey</item>
+		 <item>Gravy</item>
+		 <item>Coffee</item>
+		 <item>Cereal</item>
+		 <item>Bullion cubes</item>
+		 <item>Bottled water</item>
+		 <item>Mozzarella</item>
+		 <item>Provolone</item>
+		 <item>Shredded</item>
+		 <item>Sandwich slices</item>
+		 <item>Swiss</item>
+		 <item>Ricotta</item>
+		 <item>Cream cheese</item>
+		 <item>Cottage cheese</item>
+		  <item>Cheddar</item>
+		 <item>Peanut butter</item>
+		 <item>Soda pop</item>
+		 <item></item>
+		  <item></item>
+		 <item>Cake icing</item>
+		 <item>Brownie mix</item>
+		 <item>Cake </item>
+		 <item>Cake decorations</item>
+		 <item>Brown sugar</item>
+		  <item>Bread crumbs</item>
+		 <item>Chocolate chips</item>
+		 <item>Baking soda</item>
+		 <item>Baking powde</item>
+		 <item>Cocoa</item>
+		 <item>Oatmeal</item>
+		  <item>Pie shell</item>
+		 <item>Powdered sugar</item>
+		 <item>Shortening</item>
+		 <item>Sugar</item>
+		 <item>Scrubbers</item>
+		 <item>Sponges</item>
+		 <item>Sandwich bags</item>
+		  <item>Roasting pan</item>
+		 <item>Plastic wrap</item>
+		 <item>Paper towels</item>
+		 <item>Non-stick spray</item>
+		 <item>Napkins</item>
+		 <item>Freezer bags</item>
+		  <item>Disposable plates</item>
+		 <item>Disposable cutlery</item>
+		 <item>Disposable cups</item>
+		 <item>Dishwasher soap</item>
+		 <item>Dish soap</item>
+		 <item>Toothpaste</item>
+		 <item>Shaving cream</item>
+		 <item>Razors</item>
+		 <item>Moisturizing lotion</item>
+		  <item>Toilet paper</item>
+		 <item>Mouthwash</item>
+		 <item>Shampoo</item>
+		 <item>Hand soap</item>
+		 <item>Lip balm</item>
+		 <item>spray</item>
+		  <item>Hair gel</item>
+		 <item>Floss</item>
+		 <item>Facial tissue</item>
+		 <item>Facial cleanser</item>
+		 <item>Deodorant</item>
+		 <item>Cosmetics</item>
+		  <item>Conditioner</item>
+		 <item>Bath soap</item>
+		 <item>Antiperspirant</item>
+		  <item>Random impulse</item>
+		 <item>Newspaper</item>
+		 <item>Magazine</item>
+		 <item>Light bulbs</item>
+		 <item>Insecticides</item>
+		 <item>Insect repellent</item>
+		  <item>Hardware</item>
+		 <item>Greeting cards</item>
+		 <item>Fresh flowers</item>
+		 <item>DVDRs</item>
+		 <item>Charcoal</item>
+		 <item>Candles</item>
+		  <item>CDRs</item>
+		 <item>Batteries</item>
+	</string-array>
+</resources>

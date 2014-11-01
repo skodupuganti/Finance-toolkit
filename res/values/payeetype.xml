@@ -1,0 +1,9 @@
+<resources>
+
+	<string-array name="payeetype">
+		<item>Citizen</item>
+		<item>Sr.citizen>60</item>
+		<item>Very Sr.citizen>80</item>
+	</string-array>
+
+</resources>

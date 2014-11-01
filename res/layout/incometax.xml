@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:id="@+id/scroller" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:fillViewport="true" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"   
+android:orientation="vertical"    
+android:layout_width="fill_parent"   
+android:layout_height="fill_parent"
+android:paddingTop="5px"
+	android:paddingLeft="5px"
+	android:paddingBottom="5px"
+	android:paddingRight="5px"
+> 
+	<LinearLayout    
+	android:orientation="horizontal"      
+	android:layout_width="fill_parent"    
+	android:layout_height="fill_parent"     
+	android:layout_weight="1">
+   
+		<TextView
+		android:id="@+id/lb1"
+		android:gravity="fill_horizontal"
+		android:layout_width="fill_parent"	
+		android:layout_height="wrap_content"
+		android:text="Income Tax Payee Type:"
+		android:layout_weight=".5"
+		
+		android:textStyle="bold">
+		</TextView>
+		
+		<Spinner android:prompt="@string/app_name9"
+		android:text=""
+		android:inputType="numberDecimal"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent" 
+		android:id="@+id/spinner1"
+		android:drawSelectorOnTop="false"
+		android:layout_weight=".5"
+		android:textColor="#0000FF"
+		android:textStyle="bold">
+		</Spinner>
+ 	</LinearLayout>	
+  	
+  	<LinearLayout    
+   	android:orientation="horizontal"      
+   	android:layout_width="fill_parent"    
+   	android:layout_height="fill_parent"     
+   	android:layout_weight="1"
+   	android:paddingTop="3px">
+   
+		<TextView
+		android:id="@+id/lb2"
+		android:gravity="fill_horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Gross Total Income:"
+		android:layout_weight=".5"
+		
+		android:textStyle="bold">
+		</TextView>
+
+		<EditText
+		android:id="@+id/txtbox1"
+		android:gravity="fill_horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text=""
+		android:textColor="#000080"
+		android:textStyle="bold"
+		android:inputType="numberDecimal"
+		android:maxLength="10"
+		android:layout_weight=".5">
+		</EditText>
+	
+	</LinearLayout>
+
+
+	<LinearLayout
+	android:orientation="horizontal"      
+    android:layout_width="fill_parent"    
+   	android:layout_height="fill_parent"     
+   	android:layout_weight="1"
+   	android:paddingTop="3px">
+		<TextView
+		android:id="@+id/lb3"
+		android:gravity="fill_horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Deduction under 6A:"
+		android:layout_weight=".5"
+		
+		android:textStyle="bold">
+		</TextView>
+		<EditText
+		android:id="@+id/txtbox2"
+		android:gravity="fill_horizontal"
+		android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+		android:text=""
+		android:inputType="numberDecimal"
+		android:maxLength="6"
+		android:layout_weight=".5"
+		android:textColor="#000080"
+		android:textStyle="bold">
+		</EditText>
+	</LinearLayout>
+	
+	<LinearLayout
+	android:orientation="horizontal"      
+	android:layout_width="fill_parent"    
+	android:layout_height="fill_parent"
+	android:layout_weight="1" 
+	android:paddingTop="3px"    
+	>
+	<TextView
+		android:id="@+id/lb14"
+		android:gravity="fill_horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight=".5"
+		android:textColor="#0000FF"
+		android:inputType="numberDecimal"
+		android:textStyle="bold">
+		</TextView>
+	
+		<Button
+		android:id="@+id/button1"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:textColor="#0000FF"
+		android:text="Calculate"
+		android:textStyle="bold"
+		android:layout_weight=".5">
+		</Button>
+
+	</LinearLayout>
+	<View 
+	android:layout_width="fill_parent" 
+	android:layout_height="1dp"
+	android:background="#ffffff" 
+	
+	/>
+	
+	<LinearLayout    
+	android:orientation="horizontal"      
+	android:layout_width="fill_parent"    
+	android:layout_height="fill_parent"     
+	android:layout_weight="1"
+	 android:layout_marginTop="2dp">
+   	
+    
+        <TextView
+            android:text="Tax Slab"
+			android:layout_weight=".25"
+			android:layout_width="fill_parent"  
+			 
+			android:layout_height="wrap_content" 
+            />
+        
+       <TextView
+      
+            android:text="Slab Income"
+            android:layout_weight=".25"
+            android:layout_width="fill_parent"    
+	android:layout_height="wrap_content" />
+        <TextView
+
+            android:text="Tax Rate"
+            android:layout_weight=".25"
+            android:layout_width="fill_parent"    
+	android:layout_height="wrap_content" />
+          <TextView
+          
+        	  android:text="Tax Amount"
+        	  android:layout_weight=".25"
+        	  android:layout_width="fill_parent"    
+			android:layout_height="wrap_content" />
+   </LinearLayout>
+    <View 
+	android:layout_width="fill_parent" 
+	android:layout_height="1dp" 
+	android:background="#ffffff"
+	/>
+   <LinearLayout    
+	android:orientation="horizontal"      
+	android:layout_width="fill_parent"    
+	android:layout_height="fill_parent"     
+	android:layout_weight="1"
+	 android:layout_marginTop="2dp">
+    
+        <TextView
+        	android:id="@+id/a1"
+            android:text="180,000"
+            android:layout_weight=".25"
+        	android:layout_width="fill_parent"    
+			android:layout_height="wrap_content"/>
+       <TextView
+       		android:id="@+id/b1"
+            android:text=""
+         
+            android:layout_weight=".25"
+        	  android:layout_width="fill_parent"    
+			android:layout_height="wrap_content"/>
+        <TextView
+            android:text="0%"
+         
+            android:layout_weight=".25"
+        	  android:layout_width="fill_parent"    
+			android:layout_height="wrap_content"/>
+          <TextView
+          	  android:id="@+id/tv1"
+        	  android:text=""
+        	  android:layout_weight=".25"
+        	  android:layout_width="fill_parent"    
+			android:layout_height="wrap_content"/>
+	</LinearLayout>
+    
+     <LinearLayout    
+	android:orientation="horizontal"      
+	android:layout_width="fill_parent"    
+	android:layout_height="fill_parent"     
+	android:layout_weight="1"
+	 android:layout_marginTop="2dp">
+    
+        <TextView
+            android:text="500,000"
+           
+            android:layout_weight=".25"
+        	  android:layout_width="fill_parent"    
+			android:layout_height="wrap_content"/>
+       <TextView
+       		android:id="@+id/b2"
+       
+            android:text=""
+            android:layout_weight=".25"
+        	  android:layout_width="fill_parent"    
+			android:layout_height="wrap_content"/>
+        <TextView
+       
+            android:text="10%"
+            android:layout_weight=".25"
+        	  android:layout_width="fill_parent"    
+			android:layout_height="wrap_content"/>
+          <TextView
+   
+          	  android:id="@+id/b3"
+        	  android:text=""
+        	  android:layout_weight=".25"
+        	  android:layout_width="fill_parent"    
+			android:layout_height="wrap_content"/>
+   </LinearLayout>
+    
+    <LinearLayout    
+	android:orientation="horizontal"      
+	android:layout_width="fill_parent"    
+	android:layout_height="fill_parent"     
+	android:layout_weight="1"
+	 android:layout_marginTop="2dp">
+     
+    
+        <TextView
+    
+            android:text="800,000"
+            android:layout_weight=".25"
+        	  android:layout_width="fill_parent"    
+			android:layout_height="wrap_content"/>
+       <TextView
+       		android:id="@+id/b4"
+       		
+            android:text=""
+            android:layout_weight=".25"
+        	  android:layout_width="fill_parent"    
+			android:layout_height="wrap_content"/>
+        <TextView
+            android:text="20%"
+            
+            android:layout_weight=".25"
+        	  android:layout_width="fill_parent"    
+			android:layout_height="wrap_content"/>
+          <TextView
+          	  android:id="@+id/b5"
+        	  android:text=""
+        	 
+        	  android:layout_weight=".25"
+        	  android:layout_width="fill_parent"    
+			android:layout_height="wrap_content"/>
+ 	</LinearLayout>
+ 	<LinearLayout    
+	android:orientation="horizontal"      
+	android:layout_width="fill_parent"    
+	android:layout_height="fill_parent"     
+	android:layout_weight="1"
+	 android:layout_marginTop="2dp">
+    
+    
+    
+        <TextView
+            android:text="800,000+"
+            
+            android:layout_weight=".25"
+        	  android:layout_width="fill_parent"    
+			android:layout_height="wrap_content"/>
+       <TextView
+            android:id="@+id/b6"
+            
+            android:text=""
+            android:layout_weight=".25"
+        	  android:layout_width="fill_parent"    
+			android:layout_height="wrap_content"/>
+        <TextView
+        
+            android:text="30%"
+            android:layout_weight=".25"
+        	  android:layout_width="fill_parent"    
+			android:layout_height="wrap_content"/>
+          <TextView
+          
+              android:id="@+id/b7"
+        	  android:text=""
+        	  android:layout_weight=".25"
+        	  android:layout_width="fill_parent"    
+			android:layout_height="wrap_content"
+			/>
+	</LinearLayout>
+	<LinearLayout    
+	android:orientation="horizontal"      
+	android:layout_width="fill_parent"    
+	android:layout_height="fill_parent"     
+	android:layout_weight="1"
+	 android:layout_marginTop="2dp">
+    
+    
+        <TextView
+            android:text="Total Tax"
+            android:textStyle="bold"
+            android:layout_weight=".25"
+        	  android:layout_width="fill_parent"    
+			android:layout_height="wrap_content"/>
+       <TextView
+       
+            android:text=""
+            android:layout_weight=".25"
+        	  android:layout_width="fill_parent"    
+			android:layout_height="wrap_content"/>
+        <TextView
+        	android:textStyle="bold"
+            android:text="Output"
+            android:layout_weight=".25"
+        	  android:layout_width="fill_parent"    
+			android:layout_height="wrap_content"/>
+          <TextView
+         	  android:textStyle="bold"
+          	  android:id="@+id/b8"
+        	  android:text=""
+        	  android:layout_weight=".25"
+        	  android:layout_width="fill_parent"    
+			android:layout_height="wrap_content"/>
+   </LinearLayout>
+
+    <View 
+	android:layout_width="fill_parent" 
+	android:layout_height="1dp" 
+	android:background="#ffffff"
+	/>
+	
+	<LinearLayout
+	android:orientation="horizontal"      
+	android:layout_width="fill_parent"    
+	android:layout_height="fill_parent"     
+   	android:layout_weight="1"
+   	 android:layout_marginTop="2dp">
+		<TextView
+		android:id="@+id/lb4"
+		android:gravity="fill_horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Total Income:"
+		android:layout_weight=".5"
+		
+		android:textStyle="bold">
+		</TextView>
+
+		<TextView
+		android:id="@+id/lb5"
+		android:gravity="fill_horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text=""
+		android:layout_weight=".5"
+		      android:textSize="18sp"
+	android:textColor="#ffff0000">
+		</TextView>
+	</LinearLayout>
+
+
+
+	<LinearLayout
+	android:orientation="horizontal"      
+   	android:layout_width="fill_parent"    
+   	android:layout_height="fill_parent"     
+   	android:layout_weight="1"
+   	 android:layout_marginTop="2dp">
+
+		<TextView
+		android:id="@+id/lb8"
+		android:gravity="fill_horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Monthly Income:"
+		android:layout_weight=".5"
+		
+		android:textStyle="bold">
+		</TextView>
+
+		<TextView
+		android:id="@+id/lb9"
+		android:gravity="fill_horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		
+		
+		android:text=""
+		android:layout_weight=".5"
+		      android:textSize="18sp"
+	android:textColor="#ffff0000">
+		</TextView>
+	</LinearLayout>
+
+	<LinearLayout
+	android:orientation="horizontal"      
+	android:layout_width="fill_parent"    
+	android:layout_height="fill_parent"     
+	android:layout_weight="1"
+	 android:layout_marginTop="2dp">
+		
+		<TextView
+		android:id="@+id/lb10"
+		android:gravity="fill_horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Monthly Tax:"
+		android:layout_weight=".5"
+
+		android:textStyle="bold">
+		</TextView>
+		
+		<TextView
+		android:id="@+id/lb11"
+		android:gravity="fill_horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+	
+		
+		android:text=""
+		android:layout_weight=".5"
+		      android:textSize="18sp"
+	android:textColor="#ffff0000">
+		</TextView>
+	
+	</LinearLayout>
+
+	<LinearLayout
+	android:orientation="horizontal"      
+	   android:layout_width="fill_parent"    
+	   android:layout_height="fill_parent"     
+	   android:layout_weight="1"
+	   android:layout_marginTop="2dp">
+			<TextView
+			android:id="@+id/lb12"
+			android:gravity="fill_horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="Effective Tax Ratio:"
+			android:layout_weight=".5"
+			
+		android:textStyle="bold">
+			</TextView>
+			
+			<TextView
+			android:id="@+id/lb13"
+			android:gravity="fill_horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:textSize="18sp"
+			android:text=""
+			android:layout_weight=".5"
+				android:textColor="#ffff0000"
+		>
+			</TextView>
+	</LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>
